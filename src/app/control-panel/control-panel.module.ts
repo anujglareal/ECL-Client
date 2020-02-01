@@ -252,7 +252,8 @@ import { ViewEquipmentComponent } from './components/equipment/_dialogues/view-e
     ReportFormatSearchComponent,
     ReportFormatDataListComponent,
     ViewDepartmentsComponent,
-    ViewEquipmentComponent
+        ViewEquipmentComponent,
+        ProfileTestComponent
   ],
   providers: [
     DatePipe,
@@ -350,7 +351,8 @@ import { ViewEquipmentComponent } from './components/equipment/_dialogues/view-e
     EditReportFormatComponent,
     ReportFormatSearchComponent,
     ViewDepartmentsComponent,
-    ViewEquipmentComponent
+    ViewEquipmentComponent,
+    ProfileTestComponent
   ],
 })
 export class ControlPanelModule {}

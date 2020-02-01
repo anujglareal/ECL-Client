@@ -20,7 +20,7 @@ export interface CombinedTestModel {
   netFee: number;
   location: string;
   currency: string;
-  reportFormat: number;
+  reportFormat?: number;
   description: string;
   individualTests?: IndividualTestModel[];
 }
